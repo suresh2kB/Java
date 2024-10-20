@@ -58,7 +58,19 @@ public class Main {
 
         // We must always use, 'L' when trying to assign a value more than Integer.INT_MAX to long variable.
 
+        // Declaring two variables in one line.
+        int firstIntNumber = 2;short firstShortNumber = 3;
+        int firstIntNumber1 = 2,secondIntNumber = 4;
+        int firstIntNumber3 = 2;int secondIntNumber3 = 4;
 
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMinByteValueHalf = (byte) (myMinByteValue/2);
+        long myLongValue = (long) (Integer.MIN_VALUE/2);
 
+        byte one = 12;
+        short two = 14;
+        int third = 15;
+        long fourth = (long) (50000L+(10L*(one+two+third)));
+        System.out.println("fourth number is : "+fourth);
     }
 }
