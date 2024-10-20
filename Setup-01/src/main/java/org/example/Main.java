@@ -40,6 +40,25 @@ public class Main {
         condition = Boolean.FALSE;
         Boolean conditions = true;
 
+        // number data types
+        System.out.println("byte range from "+Byte.MIN_VALUE + " to "+Byte.MAX_VALUE);
+        System.out.println("short range from "+Short.MIN_VALUE + " to "+Short.MAX_VALUE);
+        System.out.println("int range from "+Integer.MIN_VALUE + " to "+Integer.MAX_VALUE);
+        System.out.println("long range from "+Long.MIN_VALUE + " to "+Long.MAX_VALUE);
+
+        byte byteNumber = 12;
+        short shortNumber = 13;
+        int intNumber = 14;
+        long longNumber = 15L;
+
+        System.out.println("A Byte has size of "+Byte.SIZE);
+        System.out.println("A Short has size of "+Short.SIZE);
+        System.out.println("A Integer has size of "+Integer.SIZE);
+        System.out.println("A Long has size of "+Long.SIZE);
+
+        // We must always use, 'L' when trying to assign a value more than Integer.INT_MAX to long variable.
+
+
 
     }
 }
