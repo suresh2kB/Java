@@ -20,5 +20,26 @@ public class Main {
 
         int myLastOne = 1000-myFourthNumber;
         System.out.println(myLastOne);
+
+        // Primitive data types.
+        int intMinValue = Integer.MIN_VALUE;
+        int intMaxValue = Integer.MAX_VALUE;
+        System.out.println(intMinValue);
+        System.out.println(intMaxValue);
+
+        System.out.println("Range for int is from "+intMinValue + " to "+intMaxValue);
+        // For primitive data type to store numbers, we have defined ranges to store number.
+        // If we try to store outside of that range. It will give error.
+        intMaxValue = intMaxValue+1;
+        System.out.println(intMaxValue);
+
+        int numberWithUnderScore = 1_234_457;
+        System.out.println(numberWithUnderScore);
+
+        boolean condition = true;
+        condition = Boolean.FALSE;
+        Boolean conditions = true;
+
+
     }
 }
