@@ -72,5 +72,21 @@ public class Main {
         int third = 15;
         long fourth = (long) (50000L+(10L*(one+two+third)));
         System.out.println("fourth number is : "+fourth);
+
+        // Float and Double
+        System.out.println("Range for float value is from "+Float.MIN_VALUE+" to "+Float.MAX_VALUE);
+        System.out.println("Range for double value is from "+Double.MIN_VALUE+" to "+Double.MAX_VALUE);
+
+        int intFloat = 2;
+        float floatFloat = 2.43f;
+        double doubleFloat = 2.456d;
+        System.out.println(intFloat);
+        System.out.println(floatFloat);
+        System.out.println(doubleFloat);
+
+        float castFloat = (float)2.35;
+        System.out.println("Casted float number : "+castFloat);
+
+
     }
 }
