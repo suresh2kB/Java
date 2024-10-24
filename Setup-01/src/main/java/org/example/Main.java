@@ -87,6 +87,60 @@ public class Main {
         float castFloat = (float)2.35;
         System.out.println("Casted float number : "+castFloat);
 
+        // Char in Java
+        // There are total 3 ways to assign a value to a variable.
+        char myChar = 'D';
+        char myUnicodeChar = '\u0044';
+        char myIntegerChar = 68;
+        System.out.println(myChar);
+        System.out.println(myIntegerChar);
+        System.out.println(myUnicodeChar);
 
+        // boolean is java
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+        boolean isCustomerAgeGreaterThanTwentyOne = true;
+
+        System.out.println(myTrueBooleanValue);
+        System.out.println(myFalseBooleanValue);
+        System.out.println(isCustomerAgeGreaterThanTwentyOne);
+
+        // String in Java
+        String myString = "my String";
+        System.out.println(myString);
+//        myString = myString + " is good";
+        System.out.println(myString);
+        int string_int = 10;
+        System.out.println(myString+" "+string_int);
+
+        // If else in java
+        String updatedString = "my String";
+        String updatedString1 = "my updated string";
+
+        if(myString.equals(updatedString)){
+            System.out.println("Equal to "+updatedString);
+        }
+        else if(myString.equals(updatedString1)){
+            System.out.println("Equal to "+updatedString1);
+        }
+        else{
+            System.out.println("Not equal");
+        }
+
+        // Switch Statement in Java
+
+        int val = 40;
+        switch (val){
+            case 20: System.out.println(20);
+            break;
+            case 10:
+                System.out.println(10);
+                break;
+            case 30:
+                System.out.println(30);
+                break;
+            default:
+                System.out.println("Not equal to anyone.");
+        }
     }
 }
